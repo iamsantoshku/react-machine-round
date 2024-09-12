@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.contain{
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.show{
+  /* display: flex; */
+  /* align-items: center; */
+  /* text-align: center; */
+  justify-content: center;
+  margin-top: 40vh;
+
+
+}
+.show button{
+  height: 8vw;
+  width: 27vw;
+  background-color: green;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+  color: white;
+  font-size: 3vw;
+
+}
+.outer{
+  background-color: #555b67;
+  height: 100vh;
+  width: 100vw;
+  /* overflow-y: hidden; */
+  position: absolute;
+}
+.box{
+  background-color: #61dafb;
+  margin-top: 30vh;
+  height: 25vh;
+  width: 50vw;
+  margin-left: 20vw;
+
+}
+.cross{
+  /* position: absolute; */
+  margin-left: -45vw;
+  /* height: 5vw; */
+
+}
+.cross button{
+  height: 6vw;
+  width: 5vw;
+  border: none;
+  background-color: #61dafb;
+  color: red;
+  font-weight: 600;
+  font-size: 3vw;
+
+}
+ h4{
+  text-align: center;
+}
+.accept button{
+  height: 6vw;
+  width: 20vw;
+  border: none;
+  cursor: pointer;
+
+  background-color: rgb(0, 140, 255);
+  border-radius: 1vw;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
